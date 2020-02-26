@@ -53,6 +53,8 @@
 
 .chat_bot_win .chat_bot_win_input button {
     margin-left: 20px;
+    border: none;
+    background: none;
 }
 h1 {
     color: #ffffff;
