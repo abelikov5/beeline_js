@@ -20,13 +20,22 @@
     display: block;
     margin: 0 auto;
     bottom: 20px;
-
+    padding: 10px 0;
     width: 769px;
     height: 766px;
     border: 1px solid #EDEDED;
     border-radius: 37.5px;
     position: relative;
 }
+
+.chat_bot_win .chat_bot_win_com {
+    width: 90%;
+    height: 660px;
+    display: block;
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+
 
 .chat_bot_win .chat_bot_win_input {
     width: 88%;
