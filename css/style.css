@@ -2,6 +2,8 @@
     font-family:'Abel';
     font-style: normal;
     font-weight: normal;
+    /* color: #ffffff;
+    font-size: 50px; */
 }
 
 .chat_bot {
@@ -31,6 +33,15 @@
 .chat_bot_win .chat_bot_win_com {
     width: 90%;
     height: 660px;
+    display: block;
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+
+.chat_bot_win .chat_bot_win_com .str_div{
+    display: flex-end;
+    width: 100%;
+    min-height: 60px;
     display: block;
     margin: 0 auto;
     /* background-color: #fff; */
@@ -67,7 +78,7 @@
     border: none;
     background: none;
 }
-h1 {
+.str_div {
     color: #ffffff;
     font-size: 50px;
 
