@@ -7,9 +7,10 @@ btn.addEventListener('click', function(e) {
   i++;
   var target = document.getElementById("str_" + i);
 
-  console.log("str_" + i); 
-  if (i > 9) {
+  console.log(text.value); 
+  if (text.value == 'clear') {
     window.location.reload();
+    
   }
   target.innerHTML = text.value;
   document.getElementById('input_text').value = '';
